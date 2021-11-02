@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.container .main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 1rem;
+}
